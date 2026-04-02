@@ -87,6 +87,11 @@ body {
     margin-bottom: 20px;
 }
 
+.contact_info.language {
+	padding-top: 20px;
+
+}
+
 .contact_info ul {
     position: relative;
 }
@@ -131,3 +136,55 @@ body {
     height: 100%;
     background: #3ef7ed;
 }
+
+.contact_info ul {
+    position: relative;
+}
+
+.contact_info ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contact_info ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #3ef7ed;
+}
+
+.contact_info ul li span {
+	font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.contact_info ul li a {
+    text-decoration: none;
+}
+
+.contact_info.education li {
+    margin-bottom: 15px;
+}
+
+.contact_info.education h5 {
+    color: #3ef7ed;
+    font-weight: 500;
+		padding-bottom: 5px;
+}
+
+.contact_info.education h4 {
+    color: #fff;
+    font-weight: 300;
+		font-size: 12px;
+		padding-bottom: 8px;
+}
+
+.contact_info.education h4:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+}
+
+
